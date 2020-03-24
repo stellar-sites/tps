@@ -1,12 +1,15 @@
 {
-  "devDependencies": {
-    "vuepress": "^1.3.1"
-  },
+  "name": "tps",
+  "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev pages",
-    "docs:build": "vuepress build pages"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
   },
   "dependencies": {
-    "vuepress-plugin-seo": "^0.1.2"
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "@gridsome/cli": "^0.3.1"
   }
 }
